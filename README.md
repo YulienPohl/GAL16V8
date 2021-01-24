@@ -22,7 +22,7 @@ The GAL16V8 has 16 inputs of which 8 are in and outputs as well as a clock and e
 2. Simulate with vhdl-2008
 
 ### Using [Dgitial](https://github.com/hneemann/Digital)
-1. Open GAL16V8_Test.dig and change the hex file (Counter.hex default) 
+1. Open GAL16V8_Test.dig and change the hex file (Counter.hex default)   
 Edit > Circuit specific settings > Advanced > Content of ROM's > Edit > Fuses > File > load
 2. Change the inputs and outputs if required. (DO NOT CHANGE GND & VCC PINS) used for programming.
 3. Start simulation, wait till Ready led is on. (programmed)
