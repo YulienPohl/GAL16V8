@@ -1,0 +1,12 @@
+GAL16V8
+PLD2x1
+
+A   B   NC  NC  NC  NxN NxI IxN IxI GND
+NC  NC  NC  NC  NC  NC  NC  NC  Y   VCC	 
+
+Y = /A * /B * NxN
+  + /A *  B * NxI
+  +  A * /B * IxN
+  +  A *  B * IxI
+
+DESCRIPTION:
