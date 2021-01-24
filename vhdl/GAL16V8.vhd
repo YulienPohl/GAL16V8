@@ -3,13 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_textio.all;
 use std.textio.all;
 
---https://de.wikibooks.org/wiki/VHDL-Tutorium
---https://vhdlguide.readthedocs.io/en/latest/vhdl/testbench.html
-
---https://www.fpga4student.com/2018/08/how-to-read-image-in-vhdl.html
---https://electronics.stackexchange.com/questions/180446/how-to-load-std-logic-vector-array-from-text-file-at-start-of-simulation
---http://www.pld.guru/_hdl/2/_ref/acc-eda/language_overview/test_benches/reading_and_writing_files_with_text_i_o.htm
-
 entity GAL16V8 is
 	generic (FUSE_FILE : string);
 	port (
