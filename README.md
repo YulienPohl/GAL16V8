@@ -13,7 +13,7 @@ The GAL16V8 has 16 inputs of which 8 are in and outputs as well as a clock and e
 
 ## How to use
 
-1. Convert the .pld file to JEDEC with [GALasm](https://github.com/daveho/GALasm)
+1. Convert the .pld file to JEDEC with [GALasm](https://github.com/daveho/GALasm)  
    Optionally Digital can be used to create the JEDEC file see documentation
 2. Convert the .jed file to hex with jedec2hex.py.
 
