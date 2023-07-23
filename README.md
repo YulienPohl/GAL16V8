@@ -3,7 +3,7 @@
 ## Introduction
 
 This project was created for self educational purposes and is used to simulate a GAL16V8.
-To accomplish this, the circuit was created using [Dgitial](https://github.com/hneemann/Digital) a circuit simulator and VHDL.
+To accomplish this, the circuit was created using [Digital](https://github.com/hneemann/Digital) a circuit simulator and VHDL.
 
 ## About GAL16V8
 
@@ -21,7 +21,7 @@ The GAL16V8 has 16 inputs of which 8 are in and outputs as well as a clock and e
 1. Input the .hex file path in the generic map of GAL16V8.vhd
 2. Simulate with vhdl-2008
 
-### Using [Dgitial](https://github.com/hneemann/Digital)
+### Using [Digital](https://github.com/hneemann/Digital)
 1. Open GAL16V8_Test.dig and change the hex file (Counter.hex default)   
 Edit > Circuit specific settings > Advanced > Content of ROM's > Edit > Fuses > File > load
 2. Change the inputs and outputs if required. (DO NOT CHANGE GND & VCC PINS) used for programming
